@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        #font {
+            font-size: 25px;
+        }
+    </style>
+    <script src="js/bootstrap.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="navbar navbar-expand-md navbar-light bg-primary p-5">
+
+            <a href="#" class="navbar-brand"><img src="images/image1.jpg" alt="" width="50px" height="50px"
+                    class="rounded-pill"></a>
+
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#flex">
+                <span class="navbar-toggler-icon"></span>
+
+
+            </button>
+
+            <div class="collapse navbar-collapse" id="flex">
+
+                <div class="navbar-nav">
+                    <a href="lesson7a.html" class="nav-item nav-link active">Home</a>
+                    <a href="lesson7b.html" class="nav-item nav-link">SignUp</a>
+
+                    <a href="#" class="nav-item nav-link">Cart</a>
+                    <a href="#" class="nav-item nav-link">Profiles</a>
+
+
+
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+    <div class="container-fluid bg-secondary">
+
+        <!-- carousels starts... -->
+        <!-- slides, fade -->
+        <!-- carousel indicators, carousel inner(slideshow), carousel controls -->
+
+        <div class="carousel slide" id="practice" data-bs-ride="carousel">
+            <!-- indicators -->
+
+            <ul class="carousel-indicators">
+
+                <li data-bs-target="#practice" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#practice" data-bs-slide-to="1"></li>
+                <li data-bs-target="#practice" data-bs-slide-to="2"></li>
+                <li data-bs-target="#practice" data-bs-slide-to="3"></li>
+
+            </ul>
+
+
+
+
+            <!-- carousel inner -->
+
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                    <img src="prac/dininftable.jpeg" alt="" class="w-100" height="600px">
+                    <div class="carousel-caption">
+                        <h5 style="margin-bottom: 100px;">located in kawangware</h5>
+                        <p class="lead text-centre">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque id
+                            delectus veniam iure accusantium, quasi ipsum voluptas dolor sequi cupiditate nisi soluta?
+                            Perspiciatis enim numquam assumenda iusto, tempore nesciunt inventore.</p>
+
+                    </div>
+
+
+                </div>
+
+                <div class="carousel-item">
+                    <img src="prac/couch.jpeg" alt="" class="w-100" height="600px">
+                    <div class="carousel-caption">
+                        <h5 style="margin-bottom: 100px;">located in ngong</h5>
+                        <p class="lead text-centre">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque id
+                            delectus veniam iure accusantium, quasi ipsum voluptas dolor sequi cupiditate nisi soluta?
+                            Perspiciatis enim numquam assumenda iusto, tempore nesciunt inventore.</p>
+
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="prac/seats.jpeg" alt="" class="w-100" height="600px">
+                    <div class="carousel-caption">
+                        <h5 style="margin-bottom: 100px;">located in kajiado</h5>
+                        <p class="lead text-centre">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque id
+                            delectus veniam iure accusantium, quasi ipsum voluptas dolor sequi cupiditate nisi soluta?
+                            Perspiciatis enim numquam assumenda iusto, tempore nesciunt inventore.</p>
+
+                    </div>
+
+                </div>
+
+                <div class="carousel-item">
+                    <img src="prac/stair.jpeg" alt="" class="w-100" height="600px">
+                    <div class="carousel-caption">
+                        <h5 style="margin-bottom: 100px;">located in kiambu</h5>
+                        <p class="lead text-centre">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque id
+                            delectus veniam iure accusantium, quasi ipsum voluptas dolor sequi cupiditate nisi soluta?
+                            Perspiciatis enim numquam assumenda iusto, tempore nesciunt inventore.</p>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+
+            <!-- controls -->
+            <a href="#practice" class="carousel-control-prev" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a href="#practice" class="carousel-control-next" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+
+
+
+
+        </div>
+
+        <!-- carousel ends -->
+
+        <!-- container -->
+        <!-- grid -->
+        <!-- cards -->
+        <!-- responsive design -->
+        <!-- navbar -->
+        <!-- forms -->
+        <!-- animations -->
+        <div class="container-fluid bg-secondary">
+
+
+            <section class="row">
+                <!-- first row -->
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <!-- cards and card body -->
+                    <div class="card shadow text-center m-5">
+                        <img src="prac/bedcovers.jpg" alt="" class="img-fluid img-thumbnail">
+
+                        <div class="card-body">
+                            <h5 class="card-title">executive beddings</h5>
+                            <!-- <a href="" class="btn btn-success btn-md">Add to Cart</a> -->
+                            <button type="button" class="btn btn-success btn-md" data-bs-toggle="modal" data-bs-target="#demo">More Info</button>
+
+                        </div>
+
+
+                        <!-- Modal -->
+                        <!-- Modal Header -->
+                        <!-- Modal Body, images, paragraphs, grid systems -->
+                        <!-- Modal Footer -->
+
+                        <div class="modal fade" id="demo">
+                            <div class="modal-dialog modal-md modal-dialog-centered modal-dialog-scrollable" >
+                                <div class="modal-content">
+
+
+                                    <div class="modal-header">
+                                        <h5 class="text-center">Furniture Description</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+
+
+                                    </div>
+                                    <!-- 1st content -->
+
+
+                                    <div class="modal-body">
+                                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates a qui expedita ex aspernatur eum officiis et, quis enim dicta natus magni, corrupti animi delectus debitis doloribus! Odio, sed porro.</p>
+
+                                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates a qui expedita ex aspernatur eum officiis et, quis enim dicta natus magni, corrupti animi delectus debitis doloribus! Odio, sed porro.</p>
+
+                                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates a qui expedita ex aspernatur eum officiis et, quis enim dicta natus magni, corrupti animi delectus debitis doloribus! Odio, sed porro.</p>
+                                        
+                                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates a qui expedita ex aspernatur eum officiis et, quis enim dicta natus magni, corrupti animi delectus debitis doloribus! Odio, sed porro.</p>
+
+
+
+
+                                        ............
+
+                                    </div>
+                                    <!-- 2nd content -->
+
+
+                                    <div class="modal-footer">
+                                        <a href="#" class="btn btn-success btn-lg">Pay Now</a>
+
+                                    </div>
+                                    <!-- 3rd footer -->
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!-- Modal Ends Here -->
+                    </div>
+
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <!-- cards and card body -->
+                    <div class="card shadow text-center m-5">
+                        <img src="prac/bedcovers.jpg" alt="" class="img-fluid img-thumbnail">
+
+                        <div class="card-body">
+                            <h5 class="card-title">executive beddings</h5>
+                            <a href="" class="btn btn-success btn-md">Add to Cart</a>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <!-- cards and card body -->
+                    <div class="card shadow text-center m-5">
+                        <img src="prac/bedcovers.jpg" alt="" class="img-fluid img-thumbnail">
+
+                        <div class="card-body">
+                            <h5 class="card-title">executive beddings</h5>
+                            <a href="" class="btn btn-success btn-md">Add to Cart</a>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </section>
+
+
+            <section class="row">
+
+                <!-- second row -->
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <!-- cards and card body -->
+                    <div class="card shadow text-center m-5">
+                        <img src="prac/bedcovers.jpg" alt="" class="img-fluid img-thumbnail">
+
+                        <div class="card-body">
+                            <h5 class="card-title">executive beddings</h5>
+                            <a href="" class="btn btn-success btn-md">Add to Cart</a>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <!-- cards and card body -->
+                    <div class="card shadow text-center m-5">
+                        <img src="prac/bedcovers.jpg" alt="" class="img-fluid img-thumbnail">
+
+                        <div class="card-body">
+                            <h5 class="card-title">executive beddings</h5>
+                            <a href="" class="btn btn-success btn-md">Add to Cart</a>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <!-- cards and card body -->
+                    <div class="card shadow text-center m-5">
+                        <img src="prac/bedcovers.jpg" alt="" class="img-fluid img-thumbnail">
+
+                        <div class="card-body">
+                            <h5 class="card-title">executive beddings</h5>
+                            <a href="" class="btn btn-success btn-md">Add to Cart</a>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+
+
+            </section>
+
+
+            <section class="row">
+
+                <!-- third row -->
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <!-- cards and card body -->
+                    <div class="card shadow text-center m-5">
+                        <img src="prac/bedcovers.jpg" alt="" class="img-fluid img-thumbnail">
+
+                        <div class="card-body">
+                            <h5 class="card-title">executive beddings</h5>
+                            <a href="" class="btn btn-success btn-md">Add to Cart</a>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <!-- cards and card body -->
+                    <div class="card shadow text-center m-5">
+                        <img src="prac/bedcovers.jpg" alt="" class="img-fluid img-thumbnail">
+
+                        <div class="card-body">
+                            <h5 class="card-title">executive beddings</h5>
+                            <a href="" class="btn btn-success btn-md">Add to Cart</a>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <!-- cards and card body -->
+                    <div class="card shadow text-center m-5">
+                        <img src="prac/bedcovers.jpg" alt="" class="img-fluid img-thumbnail">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">executive beddings</h5>
+                        <a href="" class="btn btn-success btn-md">Add to Cart</a>
+
+                    </div>
+
+                </div>
+
+
+
+
+
+            </section>
+
+
+            <section class="row">
+                <!-- fourth row -->
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <!-- cards and card body -->
+                    <div class="card shadow text-center m-5">
+                        <img src="prac/bedcovers.jpg" alt="" class="img-fluid img-thumbnail">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">executive beddings</h5>
+                        <a href="" class="btn btn-success btn-md">Add to Cart</a>
+
+                    </div>
+
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <!-- cards and card body -->
+                    <div class="card shadow text-center m-5">
+                        <img src="prac/bedcovers.jpg" alt="" class="img-fluid img-thumbnail">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">executive beddings</h5>
+                        <a href="" class="btn btn-success btn-md">Add to Cart</a>
+
+                    </div>
+
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <!-- cards and card body -->
+                    <div class="card shadow text-center m-5">
+                        <img src="prac/bedcovers.jpg" alt="" class="img-fluid img-thumbnail">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">executive beddings</h5>
+                        <a href="" class="btn btn-success btn-md mb-5">Add to Cart</a>
+
+                    </div>
+
+                </div>
+
+
+
+
+            </section>
+        </div>
+        <!-- footer -->
+        <!-- Footer -->
+        <div class="container-fluid">
+            <footer class="row">
+                <div class="col-md-12 bg-primary p-5">
+                    <section class="row">
+                        <div class="col-6 text-center">
+                            <!-- favicons they are used to add icons to a webpage-->
+
+                            <h5>Contact Us</h5>
+                            <a href="" class="text-white"><i class="fa fa-facebook" id="font"></i></a>
+                            <a href="" class="text-white"><i class="fa fa-instagram" id="font"></i></a>
+                            <a href="" class="text-white"><i class="fa fa-twitter" id="font"></i></a>
+                            <a href="" class="text-white"><i class="fa fa-github" id="font"></i></a>
+                            <a href="" class="text-white"><i class="fa fa-youtube" id="font"></i></a>
+
+                        </div>
+
+
+                        <div class="col-6 text-center">
+
+                            <h5>Our Locations</h5>
+                            <p>Westlands</p>
+                            <p>Parklands</p>
+                            <p>Nairobi CBD</p>
+
+                        </div>
+
+                        <hr>
+                        <strong>
+                            <p class="text-center"><i>Created by Henry Mbae</i></p>
+                        </strong>
+                        <strong>
+                            <p class="text-center">@Copyright 2022</p>
+                        </strong>
+
+
+
+                    </section>
+
+                </div>
+
+            </footer>
+
+        </div>
+
+</body>
+
+</html>
